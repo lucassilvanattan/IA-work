@@ -70,7 +70,7 @@ to setup-nest  ;; procedimento para configurar o ninho nos patches
   ]
   ;; Definindo o cheiro do ninho (distância maior significa cheiro mais fraco)
   set nest-scent 200 - distancexy 0 0  ;; forte perto do primeiro ninho
-  ;; Você pode adicionar um cheiro específico para o novo ninho, se quiser:
+  ;;adicionar um cheiro específico para o novo ninho, se quiser:
   if (distancexy (0.6 * max-pxcor) (0.6 * max-pycor)) < 5 [
     set nest-scent 200 - distancexy (0.6 * max-pxcor) (0.6 * max-pycor)  ;; cheiro do segundo ninho
   ]
